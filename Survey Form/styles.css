@@ -1,0 +1,45 @@
+body{
+    background:linear-gradient(to top, skyblue, yellow);
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 10px 15px 10px blue;
+}
+.title:hover{
+    color: red;
+}
+#form{
+    background-color: white;
+    width: 500px;
+    margin: 50px auto;
+    padding: 25px 25px;
+    box-sizing: border-box;
+    box-shadow: 5px 10px 10px;
+}
+.all{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#name, #email, #age, #school, #com{
+    border: 1px solid black;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+#submit{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: skyblue;
+}
+#submit:hover{
+    background-color: black;
+    color: white;
+}

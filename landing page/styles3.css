@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    width: auto;
+    background: url(./images/pt3.jpg) no-repeat center center/cover;
+}
+h1{
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+h1:hover{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+#n1{
+    margin: auto;
+    text-align: center;
+}
+#n1 p{
+    margin-top: 15%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+#n1 p:hover{
+    background-color: red;
+    color: yellow;
+}
+#n2{
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+}
+button{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+button a{
+    color: black;
+    text-decoration: none;
+}
+button a:hover{
+    color: yellow;
+    background-color: red;
+}

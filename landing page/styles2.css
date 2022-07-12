@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    background: url(./images/pt2.jpg) no-repeat center center/cover;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+h1:hover{
+    color: yellow;
+    text-shadow: 25px 5px 20px black;
+    font-weight: bolder;
+}
+p{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+p:hover{
+    color:white;
+    background-color: black;
+}
+.div{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+#btn{
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 15px 10px 25px black;
+}
+#btn:hover{
+    background-color: black;
+}
+#btn a{
+    color: black;
+}
+#btn a:hover{
+    color: white;
+}

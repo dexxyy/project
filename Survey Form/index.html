@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="title">Dexxy's Survey Form</h1>
+    <form id="form">
+        <div class="all">
+            <div>
+                <label for="name">Name:</label><br>
+                <input type="text" name="name" id="name" placeholder="Enter your Name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+            </div>
+            <div>
+                <label for="age">Age:</label><br>
+                <input type="age" name="age" id="age" placeholder="Enter your Age" required>
+            </div>
+            <div>
+                <label for="describe">Which option best describe you?</label><br>
+                <select name="school" id="school">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                </select>
+            </div>
+            <div>
+                <label for="choose">Do you like programming?</label><br>
+                <label for="yes">
+                <input type="radio" name="choose" id="yes">Yes <br></label>
+                <label for="no">
+                <input type="radio" name="choose" id="no">No <br></label>
+                <label for="maybe">
+                <input type="radio" name="choose" id="maybe">Maybe</label>
+            </div>
+            <div>
+                <label for="choice" id="choice">Languages and Frameworks known(Check all that apply):</label><br>
+                <input type="checkbox" name="language" id="">C <br>
+                <input type="checkbox" name="language" id="">C++ <br>
+                <input type="checkbox" name="language" id="">C# <br>
+                <input type="checkbox" name="language" id="">Java <br>
+                <input type="checkbox" name="language" id="">Python <br>
+                <input type="checkbox" name="language" id="">JavaScript <br>
+                <input type="checkbox" name="language" id="">React <br>
+                <input type="checkbox" name="language" id="">Angular <br>
+                <input type="checkbox" name="language" id="">Django <br>
+                <input type="checkbox" name="language" id="">Go <br>
+            </div>
+            <div>
+                <label for="any" id="any">Any comments or suggestions</label><br>
+                <textarea name="" id="com" cols="50" rows="1"></textarea>
+            </div>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+</body>
+</html>

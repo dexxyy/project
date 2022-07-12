@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    font-family: "Mukta";
+    background: linear-gradient(to top, skyblue, lightgreen);
+}
+header *{
+    display: inline;
+    color: black;
+    height: 50px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header li{
+    margin-left: 30px;
+}
+header a:hover{
+    color: red;
+}
+section{
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#home .myself{
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+footer{
+    text-align: center;
+    padding: 50px;
+}
+#home h1{
+    font-size: 2em;
+    font-family: "Press Start 2P";
+    color: darkblue;
+}
+section h2{
+    font-size: 1.5em;
+}
+section h3{
+    font-size: 1.0em;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+#home{
+    background: linear-gradient(to bottom, skyblue, lightyellow);
+}
+#about{
+    background: linear-gradient(to bottom, lightyellow, lightgreen);
+}
+#about h2{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#about p, ul{
+    font-size: 20px;
+}
+#about p:hover{
+    background-color: black;
+    color: white;
+}
+#about ul:hover{
+    background-color: black;
+    color: white;
+}
+#about h2:hover{
+    color: blue;
+}
+#contact{
+    background: linear-gradient(to bottom, lightgreen, lightblue);
+}
+#contact h2{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#contact h2:hover{
+    color: blue;
+}
+#contact i{
+    font-size: 35px;
+}
+#contact a{
+    font-size: 20px;
+}
+#contact a:hover{
+    color: red;
+}
+footer{
+    background: linear-gradient(to top, yellow, lightblue);
+}

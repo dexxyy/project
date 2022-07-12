@@ -1,0 +1,272 @@
+body{
+    background-color: tomato;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* top view */
+#no{
+    color: red;
+    text-align: center;
+    font-size: 46px;
+    font-family: 'Ubunto Mono', monospace;
+}
+#no1 {
+    color: black;
+    text-align: center;
+    font-size: 21px;
+    font-family: 'Ubunto Mono', monospace;
+}
+/* nav styling */
+#navbar img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 3px;
+    padding: auto;
+}
+/* nav function */
+#navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: tomato;
+    height: 14vh;
+    width: 100vw;
+    font-family: 'Ubunto Mono', monospace;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+/* nav content function */
+#content{
+    display: flex;
+    justify-content: center;
+}
+/* nav content function styling*/
+ul li{
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+ul li a{
+    color: black;
+    padding: 1px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+ul li a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+/* website image designing */
+#c1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 63vh;
+}
+/* settinng the background image */
+#c1::before{
+    content: '';
+    background: url(./images/j.jpg) no-repeat center center/cover;
+    width: 100vw;
+    height: 59vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: 'Ubunto Mono', monospace;
+    margin-right: 45px;
+    font-weight: bold;
+    z-index: -1;
+    opacity: 0.89;
+    border: 2px solid black;
+    border-top-left-radius:15px;
+    border-bottom-left-radius: 100px;
+}
+#r1{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 35px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+/* btn styling */
+.btn{
+    margin-top: 15px;
+    border: 3px solid white;
+    border-radius: 15px;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Ubunto Mono', monospace;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: red;
+    color: yellow;
+}
+#c2{
+    display: flex;
+    justify-content: space-evenly;
+}
+#r2{
+    width: 24vw;
+    height: 21vh;
+    box-shadow: 2px 7px 16px 19px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-right: 38px;
+    border-radius: 40px;
+}
+#r2::before{
+    content: '';
+    background: url(./images/white.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 24vw;
+    height: 21vh;
+    z-index: -1;
+    border-radius: 40px;
+}
+#r3{
+    position: relative;
+    width: 24vw;
+    height: 21vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 2px 7px 16px 19px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+    border-radius: 40px;
+}
+
+#r3::before {
+    content: '';
+    background: url(./images/white.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 24vw;
+    height: 21vh;
+    z-index: -1;
+    border-radius: 40px;
+}
+#no2{
+    text-align: center;
+    color: red;
+    font-family: 'Ubunto Mono', monospace;
+}
+#c3{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minimax(350px, 1fr));
+    margin: 41px;
+    justify-content: space-evenly;
+}
+#r4{
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background: url(./images/burger.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+}
+#r5{
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background: url(./images/fried.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+}
+#r6{
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background: url(./images/drinks.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+}
+/* designing the footer */
+footer{
+    text-align: center;
+}
+/* designing the contact us */
+#contactUs{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+.form1 input, .form1 select, .form1text textarea{
+    width: 92%;
+    padding: 0.5rem;
+}
+/* changing color of placeholder */
+::placeholder{
+    color: gray;
+}
+/* responsive the website using media queries */
+@media only screen and (max-width:1131px) {
+    #r4{
+        width: 42vw;
+    }
+    #r5{
+        width: 45vw;
+    }
+    #r6{
+        margin-top: 20px;
+        width: 90vw;
+    }
+}
+@media only screen and (max-width:600px) {
+    #r4{
+        width: 78vw;
+        margin: auto;
+        margin-left: 3px;
+    }
+    #r5{
+        width: 78vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+    #r6 {
+        width: 78vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+}
+@media only screen and (min-height:1000px) {
+    #navbar{
+        height: 10vh;
+    }
+    #c1::before{
+        height: 39vh;
+    }
+    #c1{
+        height: 44vh;
+    }
+}
